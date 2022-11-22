@@ -18,7 +18,7 @@
     <title>Gor Sample</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Gor Sampel</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,13 +43,19 @@
         </div>
     </nav>
     <div class="container-fluid" id="welcome">
-        <p class="intro">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend felis eros, id lacinia dolor hendrerit a. Nullam elementum est auctor purus bibendum pharetra. Phasellus in metus ultrices, condimentum dui ut, feugiat nisl. Nunc nec fringilla tortor. Vivamus sit amet pulvinar ligula.
-        </p>
-        <img id="intoimg" src="https://images.unsplash.com/photo-1587384474964-3a06ce1ce699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Lapangan Futsal">
-
-        
+        <div class="welcomekiri">
+            <p class="intro">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend felis eros, id lacinia dolor hendrerit a. Nullam elementum est auctor purus bibendum pharetra. Phasellus in metus ultrices, condimentum dui ut, feugiat nisl. Nunc nec fringilla tortor. Vivamus sit amet pulvinar ligula.
+            </p>
+            <a id="buttonSewa" class="btn btn-primary" href="#" role="button">RESERVASI</a>
+        </div>
+        <img class="introimg ms-auto" src="images/ball.png" alt="">
     </div>
+
+    <div class="container-fluid" id="daftarLapangan">
+
+    </div>
+
 
 </body>
 </html>

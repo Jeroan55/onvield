@@ -1,17 +1,21 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Plus+Jakarta+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&family=Plus+Jakarta+Sans:wght@500&display=swap');
 
 nav{
-background-color: blue;
+background: #03045E;
 padding-left: 45px;
 padding-right: 45px;
+
 }
 
-
+li{
+    margin-left: 10px;
+}
 
 .navbar-brand{
     font-size: 48px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
 
 .nav-link{
@@ -20,17 +24,43 @@ padding-right: 45px;
 }
 
 #welcome{
+    max-width: 100%;
     padding: 45px;
     display: flex;
 }
 
-#introimg{
-    max-width:500px;
+.introimg{
+    width: 100%;
+    max-width: 920px;
+    height:fit-content;
+    object-position: right;
+}
+
+.welcomekiri{
+    max-width: 30%;
+    max-height: 597px;
 }
 
 .intro{
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 20px;
-    max-width: 30%;
+    max-width: 100%;
 }
 
+#buttonSewa{
+    background: linear-gradient(135deg, rgba(70,3,94,1) 0%, rgba(3,4,94,1) 100%);
+    max-width: 100%;
+    width: 208px;
+    height: auto;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 20px;
+    object-position: bottom;
+}
+
+#daftarLapangan{
+    height: 800px;
+    background: linear-gradient(135deg, rgba(70,3,94,1) 0%, rgba(3,4,94,1) 100%);
+}
