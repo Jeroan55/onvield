@@ -19,8 +19,8 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Gor Sampel</a>
+        <div class="container">
+            <a class="navbar-brand fs-1" href="#">Gor Sampel</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,14 +42,20 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid" id="welcome">
-        <div class="welcomekiri">
-            <p class="intro">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend felis eros, id lacinia dolor hendrerit a. Nullam elementum est auctor purus bibendum pharetra. Phasellus in metus ultrices, condimentum dui ut, feugiat nisl. Nunc nec fringilla tortor. Vivamus sit amet pulvinar ligula.
-            </p>
-            <a id="buttonSewa" class="btn btn-primary" href="#" role="button">RESERVASI</a>
+    <div class="container my-4" id="welcome">
+        <div class="row">
+            <div class="welcomekiri col-md-4 mb-4">
+                <p class="intro " style="text-align: justify;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend felis eros, id lacinia dolor hendrerit a. Nullam elementum est auctor purus bibendum pharetra. Phasellus in metus ultrices, condimentum dui ut, feugiat nisl. Nunc nec fringilla tortor. Vivamus sit amet pulvinar ligula.
+                </p>
+                <a id="buttonSewa" class="btn btn-primary rounded-pill btn-lg" href="#" role="button">RESERVASI</a>
+            </div>
+            <div class="image col-md-8">
+                <img class="introimg img-fluid" src="images/ball.png" alt="">
+            </div>
         </div>
-        <img class="introimg ms-auto" src="images/ball.png" alt="">
+        
+        
     </div>
 
     <div class="container-fluid" id="daftarLapangan">
@@ -59,5 +65,3 @@
 
 </body>
 </html>
-
-
